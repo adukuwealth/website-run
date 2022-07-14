@@ -1,0 +1,86 @@
+
+ .web{
+    width: 45%;
+    height: 35rem;
+    margin-left: -25%;
+}
+.page{
+    margin-left: 25%;
+    padding-top: 15px;
+    color: rgb(253, 252, 252);
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    transition: 15s;
+}
+img{
+    position: relative;
+    width: 55%;
+    height: 35rem;
+    margin-top: 25px;
+    border: 2px solid white;
+    border-radius: 20px;
+    transition: 15s;
+    background-color: white;
+}
+
+
+.fit{
+    border: 2px solid white;
+}
+
+.card{
+    background-color: rgb(0, 0, 255);
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+}
+footer{
+    border: 1px solid rgb(40, 205, 223); 
+    border-radius: 20px;
+}
+
+p{
+    margin-top: 20px;
+    color: rgb(0, 55, 95);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.icons{
+   margin-left: 45%;
+   font-size: 35px;
+   color: rgb(0, 34, 255);
+   cursor: pointer;
+}
+.icons i{
+    margin: 0px 2px 2px 0px;
+}
+
+
+
+@media screen  and (max-width:1080px){
+    body{
+        overflow-x: hidden;
+    }
+    .page{
+        width: 50%;
+        text-align: center;
+        font-size: 20px;
+    }
+    img{
+        height: 15rem;
+        width: 100%;
+        
+    }
+    .icons{
+        margin-left: 15%;
+      
+    }
+
+    
+}
